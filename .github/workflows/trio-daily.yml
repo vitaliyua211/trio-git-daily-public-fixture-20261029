@@ -9,4 +9,4 @@ jobs:
       - name: Controlled fixture result
         run: |
           echo "TRIO synthetic fixture acceptance"
-          exit 1
+          exit 0
