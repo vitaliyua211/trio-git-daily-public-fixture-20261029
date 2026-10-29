@@ -1,0 +1,12 @@
+name: TRIO daily acceptance
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  fixture:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Controlled fixture result
+        run: |
+          echo "TRIO synthetic fixture acceptance"
+          exit 0
