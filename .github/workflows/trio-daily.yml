@@ -6,7 +6,7 @@ jobs:
   fixture:
     runs-on: ubuntu-latest
     steps:
-      - name: Controlled fixture result
+      - name: Adaptive method controlled failure
         run: |
-          echo "TRIO synthetic fixture acceptance"
-          exit 0
+          echo "TRIO_METHOD_EXPECTED_FAILURE_20261113"
+          exit 1
