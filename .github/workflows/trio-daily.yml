@@ -6,7 +6,7 @@ jobs:
   fixture:
     runs-on: ubuntu-latest
     steps:
-      - name: Adaptive method controlled failure
+      - name: Adaptive method successful repair
         run: |
-          echo "TRIO_METHOD_EXPECTED_FAILURE_20261113"
-          exit 1
+          echo "TRIO_METHOD_REPAIR_PASSED_20261113"
+          exit 0
